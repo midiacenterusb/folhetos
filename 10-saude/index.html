@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Saúde — O plano de uma vida plena</title>
+<meta name="description" content="O plano de Deus para uma vida plena: o que a Bíblia ensina sobre saúde, descanso e hábitos. Estudo bíblico gratuito da Igreja Adventista do Sétimo Dia.">
+<meta name="theme-color" content="#040C07">
+<meta property="og:type" content="website">
+<meta property="og:locale" content="pt_BR">
+<meta property="og:title" content="Saúde — O plano de uma vida plena">
+<meta property="og:description" content="O plano de Deus para uma vida plena: o que a Bíblia ensina sobre saúde, descanso e hábitos.">
+<meta property="og:image" content="assets/img/og-image.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="Saúde — O plano de uma vida plena">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Saúde — O plano de uma vida plena">
+<meta name="twitter:description" content="O plano de Deus para uma vida plena: o que a Bíblia ensina sobre saúde, descanso e hábitos.">
+<meta name="twitter:image" content="assets/img/og-image.jpg">
+<link rel="icon" href="favicon.ico" sizes="48x48">
+<link rel="icon" type="image/png" sizes="32x32" href="assets/icons/favicon-32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="assets/icons/favicon-16.png">
+<link rel="icon" type="image/png" sizes="192x192" href="assets/icons/favicon-192.png">
+<link rel="apple-touch-icon" href="assets/icons/apple-touch-icon.png">
+<link rel="preload" href="assets/fonts/RobotoCondensed-700.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="assets/fonts/SourceSans-Variable.woff2" as="font" type="font/woff2" crossorigin>
+<script>document.documentElement.classList.add('js')</script>
+<style>
+@font-face{font-family:"Roboto Condensed";src:url("assets/fonts/RobotoCondensed-700.woff2") format("woff2");font-weight:700;font-display:swap}
+@font-face{font-family:"Source Sans";src:url("assets/fonts/SourceSans-Variable.woff2") format("woff2");font-weight:200 900;font-display:swap}
+:root{
+  --navy:#040C07; --navy-card:#0A1910; --navy-deep:#07120B; --navy-rgb:5,12,8;
+  --gold:#BB9A55; --gold-line:#BAA06C; --gold-text:#8A6A2B;
+  --cream:#F3E5D1; --cream-2:#EFE0CA; --card:#FFFAEF; --card-line:#E4D5B6;
+  --ink:#16191F; --ink-soft:#343840;
+  --cond:"Roboto Condensed","Arial Narrow",Impact,sans-serif;
+  --sans:"Source Sans",system-ui,-apple-system,"Segoe UI",sans-serif;
+  --max:1080px; --ease:cubic-bezier(.2,.7,.2,1);
+}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth;scroll-padding-top:68px;overflow-x:clip;-webkit-text-size-adjust:100%}
+body{font-family:var(--sans);font-size:1.125rem;line-height:1.6;color:var(--ink);background:var(--cream);-webkit-font-smoothing:antialiased;overflow-x:clip}
+img{max-width:100%;height:auto;display:block}
+a{color:inherit}
+.wrap{width:min(100% - 2.4rem,var(--max));margin-inline:auto}
+.skip{position:absolute;left:-999px;top:0;background:var(--gold);color:var(--navy);padding:.6rem 1rem;z-index:100;font-weight:700}
+.skip:focus{left:0}
+h1,h2,h3{font-family:var(--cond);font-weight:700;text-transform:uppercase}
+
+/* ---------- topo ---------- */
+.top{position:fixed;inset:0 0 auto 0;z-index:50;background:rgba(5,12,8,.86);-webkit-backdrop-filter:blur(10px);backdrop-filter:blur(10px);
+  border-bottom:1px solid rgba(255,255,255,.16);color:#fff;transition:background .3s}
+.top.scrolled{background:rgba(5,12,8,.94)}
+.top .wrap{display:flex;align-items:center;justify-content:space-between;height:56px}
+.brand{font-family:var(--cond);font-weight:700;font-size:1.6rem;letter-spacing:.06em;text-decoration:none;line-height:1}
+.top nav ul{display:flex;gap:.9rem;list-style:none}
+.top nav a{display:inline-flex;align-items:center;min-height:44px;text-decoration:none;font-size:.95rem;font-weight:600;color:#F4ECDD;position:relative;white-space:nowrap}
+.top nav a::after{content:"";position:absolute;left:0;right:0;bottom:7px;height:2px;background:var(--gold);transform:scaleX(0);transform-origin:left;transition:transform .35s var(--ease)}
+.top nav a:hover::after,.top nav a.on::after{transform:scaleX(1)}
+.only-wide{display:none}
+
+/* ---------- hero ---------- */
+.hero{background:linear-gradient(180deg,#040C07 0%,#0A1C11 45%,#12341F 100%);color:#fff;padding:calc(56px + 2.4rem) 0 3rem;overflow:hidden}
+.hero .grid{display:grid;gap:2.2rem}
+.hero h1{font-size:clamp(4.2rem,19vw,7.4rem);line-height:.95;letter-spacing:.01em}
+.hero .rule{height:1px;width:min(36%,230px);background:rgba(187,154,85,.65);margin:1.6rem 0 1.4rem;transform-origin:left}
+.hero .sub{font-family:var(--cond);font-weight:700;text-transform:uppercase;font-size:clamp(1.5rem,6.2vw,2.1rem);letter-spacing:.07em;line-height:1.28;color:#F3E8D2}
+.hero .sub span{display:block;color:var(--gold)}
+.btn{display:inline-flex;align-items:center;justify-content:center;min-height:56px;padding:0 2rem;background:var(--gold);color:#0A1626;text-decoration:none;
+  font-family:var(--cond);font-weight:700;text-transform:uppercase;letter-spacing:.12em;font-size:1.2rem;border-radius:3px;transition:transform .2s var(--ease),filter .2s,box-shadow .3s}
+.btn:hover{filter:brightness(1.08);box-shadow:0 10px 24px -10px rgba(187,154,85,.8)}
+.btn:active{transform:scale(.97)}
+.hero .btn{margin-top:1.8rem}
+.hero figure{position:relative;border-radius:3px;overflow:hidden;box-shadow:0 30px 60px -24px #000;background:#07182c}
+.hero figure img{width:100%;aspect-ratio:1100/1300;object-fit:cover;object-position:var(--pos,50% 50%);transform:scale(1.08);will-change:transform}
+
+/* ---------- introdução ---------- */
+.intro{padding:2.6rem 0 1rem}
+.intro .grid{display:grid;gap:1.4rem}
+.photo{position:relative;border-radius:4px;overflow:hidden;box-shadow:0 22px 46px -22px rgba(60,40,10,.55);background:#f6ecdb}
+.photo img{width:100%;height:100%;object-fit:cover;transform:scale(1.1);will-change:transform}
+.photo.land{aspect-ratio:var(--ar,1.6)}
+.dark-card{background:var(--navy-card);color:#F3E8D2;border-radius:8px;padding:2.2rem 1.7rem 2.3rem;box-shadow:0 20px 40px -24px rgba(0,19,42,.7)}
+.dark-card h2{font-size:clamp(2.2rem,9vw,3rem);line-height:1.02;color:#fff;letter-spacing:.01em}
+.gold-rule{display:block;width:96px;height:3px;background:var(--gold);margin:1.2rem 0 1.4rem;transform-origin:left}
+.dark-card p{font-size:1.25rem;line-height:1.7}
+.dark-card p+p{margin-top:1.3rem}
+
+/* ---------- blocos / capítulos ---------- */
+.chapters{padding:3rem 0 2rem}
+.stack{display:grid;gap:1.6rem}
+.card{background:var(--card);border:1px solid var(--card-line);border-top:4px solid var(--gold-line);border-radius:4px 4px 8px 8px;padding:1.6rem 1.4rem 1.7rem;box-shadow:0 18px 36px -24px rgba(80,55,15,.5)}
+.card-head{display:flex;align-items:flex-start;justify-content:space-between;gap:1rem;margin-bottom:1.3rem}
+.card h3{font-size:clamp(1.75rem,7.4vw,2.3rem);line-height:1.03;color:#0C1A2D;max-width:12ch}
+.badge{flex:none;display:grid;place-items:center;width:54px;height:54px;background:var(--gold);color:#0A1626;font-family:var(--cond);font-weight:700;font-size:1.9rem;line-height:1;border-radius:2px;margin-top:.15rem}
+.lead{font-weight:700;font-size:1.18rem;line-height:1.55;color:var(--ink)}
+.quote{border-left:4px solid var(--gold-line);padding:.2rem 0 .2rem 1.05rem;margin:1.1rem 0 1.3rem}
+.quote p{font-size:1.1rem;line-height:1.55;color:var(--ink-soft)}
+.quote cite{display:block;margin-top:.35rem;font-style:normal;font-weight:700;color:var(--gold-text)}
+.card > .quote:last-child{margin-bottom:0}
+
+/* seção com número solto (05 / 06) */
+.sect{padding:3.2rem 0 3.2rem}
+.sect .badge{width:56px;height:56px;margin:0 0 1.2rem}
+.sect h2{font-size:clamp(2.4rem,10vw,3.4rem);line-height:1.02;color:#0C1A2D}
+.sect .gold-rule{margin:1.1rem 0 1.5rem}
+.story{display:grid;gap:1rem}
+.story p{font-size:1.12rem;color:var(--ink-soft)}
+.spiritual{background:var(--navy-card);border-top:3px solid var(--gold-line);color:#F3E8D2;border-radius:6px;padding:1.9rem 1.6rem 2rem;margin-top:1.6rem;box-shadow:0 20px 40px -24px rgba(0,19,42,.7)}
+.spiritual h3{font-size:clamp(1.8rem,7.6vw,2.3rem);color:#fff;line-height:1.05}
+.spiritual .gold-rule{width:72px;height:3px;margin:.9rem 0 1.2rem}
+.spiritual p{font-size:1.2rem;line-height:1.65}
+.spiritual p+p{margin-top:1rem}
+.spiritual b{color:var(--gold)}
+
+.now{background:var(--cream-2)}
+.now .lead{margin-bottom:1.1rem}
+.ask{font-family:var(--cond);font-weight:700;text-transform:uppercase;color:#0C1A2D;font-size:clamp(1.9rem,7.6vw,2.6rem);line-height:1.1;margin:1.8rem 0 1.6rem}
+.photo.pray{aspect-ratio:var(--ar,1.2)}
+.photo.pray img{object-position:50% 50%}
+
+/* ---------- quer saber mais ---------- */
+.more{background:linear-gradient(rgba(var(--navy-rgb),.80),rgba(var(--navy-rgb),.92)),url(assets/img/fundo.jpg) center/cover no-repeat var(--navy-deep);color:#F3E8D2;text-align:center;padding:3.6rem 0 calc(3.2rem + env(safe-area-inset-bottom))}
+.more h2{font-size:clamp(2.2rem,9vw,3rem);color:var(--gold);line-height:1.05}
+.more .intro-p{font-size:1.2rem;margin:1.2rem auto 1.8rem;max-width:30rem}
+.more .btn{margin-top:0;font-size:1.25rem;letter-spacing:.08em;text-transform:none}
+.more h3{font-size:clamp(1.6rem,6.6vw,2.1rem);color:var(--gold);margin:2.6rem 0 .6rem;line-height:1.1}
+.more .big-link{display:inline-block;color:#fff;font-weight:700;font-size:1.5rem;text-decoration:underline;text-decoration-color:var(--gold);text-decoration-thickness:2px;text-underline-offset:6px;padding:.3rem 0}
+.tv p{font-size:1.15rem;line-height:1.9;color:#F3E8D2}
+.tv b{color:#fff}
+.tv i{font-style:normal;color:var(--gold);margin:0 .55rem}
+.tv a{color:#fff;text-decoration:underline;text-decoration-color:var(--gold);text-decoration-thickness:2px;text-underline-offset:5px}
+.church-card{margin-top:1.2rem}
+.church-card img{width:min(50vw,200px);height:auto;margin-inline:auto}
+
+/* ---------- animações ---------- */
+.js .rv{opacity:0;transform:translateY(30px);transition:opacity .85s var(--ease),transform .85s var(--ease);transition-delay:var(--d,0s)}
+.js .rv.in{opacity:1;transform:none}
+.js .gold-rule,.js .hero .rule{transform:scaleX(0);transition:transform .9s var(--ease) .15s}
+.js .in .gold-rule,.js .gold-rule.in{transform:scaleX(1)}
+.js .badge{transform:scale(.6);opacity:0;transition:transform .6s cubic-bezier(.3,1.5,.5,1) .1s,opacity .4s .1s}
+.js .in .badge,.js .badge.in{transform:none;opacity:1}
+@keyframes up{from{opacity:0;transform:translateY(26px)}to{opacity:1;transform:none}}
+@keyframes grow{from{transform:scaleX(0)}to{transform:scaleX(1)}}
+@keyframes zoom{from{opacity:0;transform:scale(1.18)}to{opacity:1;transform:scale(1.08)}}
+.js .hero h1{animation:up .9s var(--ease) .05s both}
+.js .hero .rule{transform:none;animation:grow 1s var(--ease) .45s both}
+.js .hero .sub{animation:up .9s var(--ease) .55s both}
+.js .hero .btn{animation:up .9s var(--ease) .75s both}
+.js .hero figure img{animation:zoom 1.6s var(--ease) .5s both}
+@media (prefers-reduced-motion:reduce){
+  html{scroll-behavior:auto}
+  .js .rv,.js .gold-rule,.js .badge{opacity:1!important;transform:none!important;transition:none!important}
+  .js .hero *{animation:none!important}
+  .hero figure img,.photo img{transform:none!important}
+}
+
+
+/* indicador de clique */
+.tapwrap{position:relative;display:inline-block;margin-bottom:1.4rem}
+.tap{position:absolute;width:64px;height:69px;pointer-events:none;overflow:visible;transform-origin:50% 100%;animation:tap 1.8s ease-in-out 1.2s infinite}
+.tapwrap.tl .tap{left:-48px;bottom:-40px;--r:38deg;transform:rotate(var(--r))}
+.tapwrap.br .tap{right:-62px;bottom:-42px;--r:-38deg;transform:rotate(var(--r))}
+@keyframes tap{0%,60%,100%{transform:rotate(var(--r)) translateY(0)}30%{transform:rotate(var(--r)) translateY(-7px)}}
+@media (prefers-reduced-motion:reduce){.tap{animation:none!important}}
+
+/* ---------- telas grandes ---------- */
+@media (min-width:700px){
+  .only-wide{display:list-item}
+  .top nav ul{gap:1.8rem}
+  body{font-size:1.1875rem}
+}
+@media (min-width:900px){
+  .hero{padding:calc(56px + 4.5rem) 0 4.5rem;min-height:100svh;display:grid;align-items:center}
+  .hero .grid{grid-template-columns:1.05fr .95fr;gap:4rem;align-items:center}
+  .intro .grid{grid-template-columns:1fr 1fr;gap:2rem;align-items:stretch}
+  .intro .photo{aspect-ratio:auto;min-height:100%}
+  .stack{grid-template-columns:1fr 1fr;align-items:start;gap:1.8rem}
+  .card h3{max-width:none}
+  .sect .cols{display:grid;grid-template-columns:1fr 1fr;gap:2.4rem;align-items:start}
+  .sect .cols .spiritual{margin-top:0}
+  .now .cols{align-items:center}
+}
+
+/* ---------- complementos dos estudos 02–10 ---------- */
+.dark-card .kicker{font-family:var(--cond);font-weight:700;text-transform:uppercase;letter-spacing:.05em;color:var(--gold);font-size:1.25rem;line-height:1.25;margin-bottom:1.1rem}
+.dark-card .quote{border-left-color:var(--gold);margin:1.2rem 0 1.3rem}
+.dark-card .quote p{color:#F3E8D2}
+.dark-card .quote cite{color:var(--gold)}
+.card p+p,.card .quote+p,.card p+.quote{margin-top:0}
+.card .lead+.lead{margin-top:.9rem}
+.card .sub-h{font-family:var(--cond);font-weight:700;text-transform:uppercase;letter-spacing:.04em;font-size:1.15rem;color:var(--gold-text);margin-top:1.2rem}
+.card .sub-h+.quote{margin-top:.5rem}
+.card .ask,.now .ask{margin-top:1.2rem}
+.ask-cite{display:block;font-style:normal;font-weight:700;color:var(--gold-text);margin:-.9rem 0 1.4rem}
+.now .lead+.lead{margin-top:0}
+.now h3.invite{font-family:var(--cond);font-weight:700;text-transform:uppercase;font-size:clamp(1.9rem,7.6vw,2.6rem);line-height:1.05;color:#0C1A2D}
+.now .part+.part{margin-top:2.8rem}
+.reflect{list-style:none;margin:0 0 1.4rem;display:grid;gap:.7rem}
+.reflect li{position:relative;padding-left:1.5rem;font-size:1.12rem;color:var(--ink-soft)}
+.reflect li::before{content:"";position:absolute;left:0;top:.62em;width:.6rem;height:.6rem;border-radius:50%;background:var(--gold)}
+.more h2.long{font-size:clamp(1.7rem,7vw,2.5rem);max-width:30rem;margin-inline:auto}
+.sect.nophoto .cols{grid-template-columns:1fr;max-width:46rem}
+.brand.sm{font-size:1.35rem}
+</style>
+</head>
+<body>
+<svg width="0" height="0" style="position:absolute" aria-hidden="true"><defs><symbol id="hand" viewBox="0 0 48 52"><g fill="none" stroke="#fff" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M19 28V14.5a3.2 3.2 0 0 1 6.4 0V27M25.4 25v-3a3.2 3.2 0 0 1 6.4 0v4M31.8 26v-1.5a3.2 3.2 0 0 1 6.4 0V36c0 7-4.5 11-11 11h-3.5c-4 0-6-1.8-8-4.8l-6-9.3a3.2 3.2 0 0 1 5.3-3.5L19 34"/><path d="M12.5 9.5l2.8 2.6M22.2 3.5v3.6M31.8 9.5l-2.8 2.6" stroke-width="2"/></g></symbol></defs></svg>
+<a class="skip" href="#conteudo">Ir para o conteúdo</a>
+
+<header class="top" id="topo">
+  <div class="wrap">
+    <a class="brand" href="#inicio">SAÚDE</a>
+    <nav aria-label="Principal">
+      <ul>
+        <li class="only-wide"><a href="#introducao">Introdução</a></li>
+        <li><a href="#capitulos">Capítulos</a></li>
+        <li class="only-wide"><a href="#convite">Reflita</a></li>
+        <li><a href="#contato">Contato</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<main id="conteudo">
+  <section class="hero" id="inicio">
+    <div class="wrap grid">
+      <div>
+        <h1>Saúde</h1>
+        <div class="rule"></div>
+        <p class="sub">O plano de <span>uma vida plena</span></p>
+        <a class="btn" href="#introducao">Começar a leitura</a>
+      </div>
+      <figure style="--pos:50% 50%"><img src="assets/img/capa-arte.jpg" width="1100" height="1553" alt="Um homem correndo por uma trilha verde, com uma cachoeira e frutas em primeiro plano"></figure>
+    </div>
+  </section>
+
+  <section class="intro" id="introducao">
+    <div class="wrap grid">
+      <div class="photo land px rv" style="--ar:2.1"><img src="assets/img/intro.jpg" width="869" height="260" loading="lazy" alt="Frutas, verduras, grãos e uma jarra de água, em uma ilustração em aquarela"></div>
+      <div class="dark-card rv" style="--d:.1s">
+        <h2>O plano de Deus<br>para uma vida plena</h2>
+        <span class="gold-rule"></span>
+        <p class="kicker">Como é seu estilo de vida?</p>
+        <p>Todos desejam viver mais e melhor. Mas a verdadeira saúde vai além da ausência de doenças. A Bíblia apresenta a saúde como um equilíbrio entre corpo, mente e vida espiritual.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="chapters" id="capitulos">
+    <div class="wrap stack">
+      <article class="card rv">
+        <div class="card-head"><h3>Como está seu estilo de vida</h3><span class="badge">01</span></div>
+        <p class="lead">O apóstolo João escreveu:</p>
+        <blockquote class="quote"><p>“Amado, desejo que te vá bem em todas as coisas e que tenhas saúde, assim como bem vai a tua alma”</p><cite>(3 João 1:2).</cite></blockquote>
+        <p class="lead">Desde a criação, Deus demonstrou interesse pelo bem-estar humano. Ao criar o homem e a mulher, deu-lhes uma alimentação simples e saudável, baseada nos alimentos naturais da terra:</p>
+        <blockquote class="quote"><p>“Eis que vos tenho dado toda erva que dá semente [...] e toda árvore em que há fruto que dê semente; ser-vos-á para mantimento”</p><cite>(Gênesis 1:29).</cite></blockquote>
+        <p class="lead">A saúde não é apenas uma questão física. Nossos hábitos diários influenciam diretamente nossa qualidade de vida. Deus nos deixou os 8 remédios naturais: alimentação equilibrada, exercício físico, água, luz solar, ar puro, temperança, descanso e confiança em Deus, que são princípios que contribuem para uma vida mais saudável.</p>
+        <p class="lead">A Bíblia ensina que nosso corpo tem grande valor:</p>
+        <blockquote class="quote"><p>“Ou não sabeis que o vosso corpo é santuário do Espírito Santo, que habita em vós [...]? Portanto, glorificai a Deus no vosso corpo”</p><cite>(1 Coríntios 6:19-20).</cite></blockquote>
+        <p class="lead">Por isso, cuidar da saúde não é apenas uma escolha pessoal; é também uma forma de honrar ao Criador.</p>
+      </article>
+      <article class="card rv">
+        <div class="card-head"><h3>Corpo e mente</h3><span class="badge">02</span></div>
+        <p class="lead">Deus também nos orienta a evitar aquilo que prejudica o corpo e a mente. Sobre o consumo de bebidas alcoólicas, a Bíblia adverte:</p>
+        <blockquote class="quote"><p>“O vinho é escarnecedor, e a bebida forte, alvoroçadora; todo aquele que por eles é vencido não é sábio”</p><cite>(Provérbios 20:1).</cite></blockquote>
+        <p class="lead">Além disso, o cristão é chamado a viver livre de qualquer hábito que o escravize:</p>
+        <blockquote class="quote"><p>“Todas as coisas me são lícitas, [...], mas eu não me deixarei dominar por nenhuma delas”</p><cite>(1 Coríntios 6:12).</cite></blockquote>
+        <p class="lead">Esse princípio se aplica ao álcool, tabaco, drogas e a qualquer vício que prejudique a saúde física, mental ou espiritual.</p>
+      </article>
+      <article class="card rv">
+        <div class="card-head"><h3>Descanso</h3><span class="badge">03</span></div>
+        <p class="lead">Outro aspecto importante do plano divino para a saúde é o descanso. O próprio Deus separou um dia para que o ser humano renovasse suas forças e fortalecesse sua comunhão com Ele:</p>
+        <blockquote class="quote"><p>“Lembra-te do dia de sábado, para o santificar”</p><cite>(Êxodo 20:8).</cite></blockquote>
+        <p class="lead">O sábado oferece descanso físico, mental e espiritual, lembrando-nos de que dependemos do Criador para a vida e para a saúde.</p>
+        <p class="lead">Muitas pessoas somente se preocupam com a saúde quando adoecem. Outras procuram prevenir enfermidades por meio de bons hábitos. Mas existe um nível ainda mais elevado de compreensão: reconhecer que Deus deseja restaurar todo o nosso ser.</p>
+        <p class="lead">O Senhor declarou:</p>
+        <blockquote class="quote"><p>“[...] Eu sou o Senhor que te sara”</p><cite>(Êxodo 15:26).</cite></blockquote>
+      </article>
+      <article class="card rv">
+        <div class="card-head"><h3>Saúde integral</h3><span class="badge">04</span></div>
+        <p class="lead">Jesus demonstrou profundo interesse pela saúde das pessoas. Durante Seu ministério, ensinava, perdoava e curava. Seu desejo continua sendo oferecer vida plena:</p>
+        <blockquote class="quote"><p>“[...] Eu vim para que tenham vida e a tenham em abundância”</p><cite>(João 10:10).</cite></blockquote>
+        <p class="lead">A visão bíblica de saúde é integral. Deus deseja restaurar nosso corpo, nossa mente e nossa vida espiritual.</p>
+        <blockquote class="quote"><p>“E o mesmo Deus da paz vos santifique em tudo; e o vosso espírito, alma e corpo sejam conservados íntegros”</p><cite>(1 Tessalonicenses 5:23).</cite></blockquote>
+        <p class="lead">Quando colocamos Deus em primeiro lugar, nossos hábitos passam a refletir essa decisão. Por isso a Bíblia aconselha:</p>
+        <blockquote class="quote"><p>“Portanto, quer comais, quer bebais ou façais outra qualquer coisa, fazei tudo para a glória de Deus”</p><cite>(1 Coríntios 10:31).</cite></blockquote>
+      </article>
+    </div>
+  </section>
+
+  <section class="sect now" id="convite">
+    <div class="wrap">
+      <div class="cols">
+        <div>
+        <div class="part">
+          <div class="rv"><h2>Reflita</h2><span class="gold-rule"></span></div>
+          <ul class="reflect rv"><li>Seus hábitos estão contribuindo para sua saúde?</li><li>Você tem cuidado do corpo que Deus lhe deu?</li><li>Existe algum hábito ou vício que você precisa abandonar?</li><li>Você tem separado tempo para o descanso e para Deus?</li><li>O que você pode mudar hoje para viver melhor?</li></ul>
+        <p class="lead rv">Deus tem um plano para sua vida. Ele deseja que você desfrute de saúde física, mental e espiritual.</p>
+        <p class="ask rv">Esse plano está revelado em Sua Palavra e confirmado pelo exemplo de Jesus.</p>
+        </div>
+        </div>
+        <div class="photo pray px rv" style="--ar:1.5"><img src="assets/img/convite.jpg" width="909" height="510" loading="lazy" alt="Mulher descansando em uma rede, em um jardim, com uma Bíblia ao lado"></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="more" id="contato">
+    <div class="wrap">
+      <h2 class="rv long">Gostaria de conhecer mais sobre os princípios bíblicos de saúde e qualidade de vida?</h2>
+      <p class="intro-p rv">Entre em contato conosco. Teremos alegria em estudar a Bíblia com você.</p>
+      <span class="tapwrap tl rv"><a class="btn" href="https://novotempocursos.com/pt/" target="_blank" rel="noopener">novotempocursos.com</a><svg class="tap" aria-hidden="true" focusable="false" viewBox="0 0 48 52"><use href="#hand"/></svg></span>
+
+      <h3 class="rv">Encontre uma igreja</h3>
+      <span class="tapwrap br rv"><a class="big-link" href="https://igrejas.adventistas.org" target="_blank" rel="noopener">igrejas.adventistas.org</a><svg class="tap" aria-hidden="true" focusable="false" viewBox="0 0 48 52"><use href="#hand"/></svg></span>
+
+      <h3 class="rv">TVs por assinatura</h3>
+      <div class="tv rv">
+        <p><b>SKY:</b> Canal 31 <i>|</i> <b>NET:</b> Canais 184 e 684</p>
+        <p><b>Claro:</b> Canais 27 e 527 <i>|</i> <b>Oi:</b> Canal 01</p>
+        <p><b>VIVO:</b> 240 E 401 (FIBRA) <i>|</i> <a href="https://ntplay.com" target="_blank" rel="noopener">ntplay.com</a></p>
+      </div>
+
+      <h3 class="rv">Uma igreja perto de você</h3>
+      <div class="church-card rv"><img src="assets/img/logo-iasd-usb.svg" width="756" height="564" alt="Igreja Adventista do Sétimo Dia — União Sul-Brasileira"></div>
+    </div>
+  </section>
+</main>
+
+<script>
+(function(){
+  var reduce=window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+  var top=document.getElementById('topo');
+  function onScroll(){top.classList.toggle('scrolled',window.scrollY>24)}
+  onScroll(); window.addEventListener('scroll',onScroll,{passive:true});
+
+  // entrada dos elementos ao rolar
+  var els=[].slice.call(document.querySelectorAll('.rv'));
+  if(!('IntersectionObserver' in window)||reduce){els.forEach(function(e){e.classList.add('in')})}
+  else{
+    var io=new IntersectionObserver(function(es){es.forEach(function(x){if(x.isIntersecting){x.target.classList.add('in');io.unobserve(x.target)}})},{threshold:.12,rootMargin:'0px 0px -6% 0px'});
+    els.forEach(function(e){io.observe(e)});
+  }
+
+  // paralaxe suave nas fotos
+  if(!reduce){
+    var px=[].slice.call(document.querySelectorAll('.px img,.hero figure img'));
+    var ticking=false;
+    function par(){
+      var vh=window.innerHeight;
+      px.forEach(function(img){
+        var r=img.parentNode.getBoundingClientRect();
+        if(r.bottom<0||r.top>vh)return;
+        var p=((r.top+r.height/2)-vh/2)/vh; // -1..1
+        var base=img.closest('.hero')?1.08:1.1;
+        img.style.transform='translate3d(0,'+(p*-6).toFixed(2)+'%,0) scale('+base+')';
+      });
+      ticking=false;
+    }
+    window.addEventListener('scroll',function(){if(!ticking){ticking=true;requestAnimationFrame(par)}},{passive:true});
+    window.addEventListener('resize',par); window.addEventListener('load',par);
+  }
+
+  // destaca no menu a seção visível
+  var links={};[].forEach.call(document.querySelectorAll('.top nav a'),function(a){links[a.getAttribute('href').slice(1)]=a});
+  if('IntersectionObserver' in window){
+    var so=new IntersectionObserver(function(es){es.forEach(function(x){
+      if(x.isIntersecting){for(var k in links)links[k].classList.remove('on');var l=links[x.target.id];if(l)l.classList.add('on')}
+    })},{rootMargin:'-45% 0px -50% 0px'});
+    ['introducao','capitulos','convite','contato'].forEach(function(id){var s=document.getElementById(id);if(s)so.observe(s)});
+  }
+})();
+</script>
+</body>
+</html>
